@@ -19,6 +19,6 @@ public class WritableNativeMap extends ReadableMap {
     }
 
     public WritableNativeMap() {
-        super(new HashMap<Object, Object>());
+        super(new HashMap<String, Object>());
     }
 }
